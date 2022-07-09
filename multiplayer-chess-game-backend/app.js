@@ -1,7 +1,7 @@
 const express = require('express')
 const http = require('http')
 const socketio = require('socket.io')
-const gameLogic = require('./multiplayer-chess-game-backend/game-logic')
+const gameLogic = require('./game-logic')
 const app = express()
 
 /**
